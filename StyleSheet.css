@@ -1,0 +1,58 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.light-theme {
+    background: #ffffff;
+    color: #000000;
+}
+
+.dark-theme {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 1.2em;
+    color: #007bff; /* You can change the cart icon color here */
+}
+
+.product-form input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.product-form button {
+    padding: 5px 10px;
+}
+
+.product-list,
+.cart ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    .product-list li,
+    .cart li {
+        margin: 10px 0;
+    }
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
